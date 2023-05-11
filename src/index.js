@@ -16,8 +16,6 @@ const store = new Store({
   ]
 });
 
-window.save = store;
-
 const root = createRoot(document.getElementById('root'));
 
 store.subscribe(() => {
